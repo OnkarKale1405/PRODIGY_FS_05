@@ -1,0 +1,95 @@
+@keyframes ease {
+    0% { background-position: 0% 76%; }
+    50% { background-position: 100% 25%; }
+    100% { background-position: 0% 76%; }
+  }
+  
+  @-webkit-keyframes ease {
+    0% { background-position: 0% 76%; }
+    50% { background-position: 100% 25%; }
+    100% { background-position: 0% 76%; }
+  }
+  
+  @-moz-keyframes ease {
+    0% { background-position: 0% 76%; }
+    50% { background-position: 100% 25%; }
+    100% { background-position: 10% 76%; }
+  }
+  
+  .landing-container {
+    display: grid;
+    height: 100vh;
+    align-content: space-between;
+    background: linear-gradient(301deg, #ffffff, #000000);
+    background-size: 400% 400%;
+    animation: ease 10s ease infinite;
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .company-name {
+    font-family: Poppins;
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding-left: 11rem;
+  }
+  
+  .signup-container {
+    margin-left: 28%;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .headline {
+    font-size: 3rem;
+  }
+  
+  .subheadline {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .signup-button {
+    border-radius: 25px;
+    background: white;
+    color: black;
+    border: 1px solid;
+    font-size: 2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Poppins;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .signin-prompt {
+    font-size: 1rem;
+  }
+  
+  .signin-button {
+    border-radius: 25px;
+    background: white;
+    color: black;
+    font-size: 2rem;
+    width: 15rem;
+    border: 1px solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Poppins;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer span {
+    font-family: Poppins;
+  }
+  

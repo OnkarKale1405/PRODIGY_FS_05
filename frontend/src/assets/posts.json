@@ -1,0 +1,23 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "author": "John Doe",
+            "content": "Hello, world!",
+            "image" : "/images.jpeg",
+            "timestamp": "2022-01-01T12:00:00Z"
+        },
+        {
+            "id": 2,
+            "author": "Jane Smith",
+            "content": "Check out this amazing photo!",
+            "timestamp": "2022-01-02T09:30:00Z"
+        },
+        {
+            "id": 3,
+            "author": "Alex Johnson",
+            "content": "Just finished a great workout!",
+            "timestamp": "2022-01-03T15:45:00Z"
+        }
+    ]
+}
